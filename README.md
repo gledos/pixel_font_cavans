@@ -2,6 +2,8 @@
 
 一个基于 [victorporof/BDF.js](https://github.com/victorporof/BDF.js/) 与 [SolidZORO/zpix-pixel-font](https://github.com/SolidZORO/zpix-pixel-font) 输出到 HTML canvas 像素字体的网页程序。
 
+点击进入在线演示: [pixel_font_cavans](https://gledos.science/pixel_font_cavans/)
+
 ![演示1](demo_gif/demo_1.gif)
 
 ![演示2](demo_gif/demo_2.gif)
