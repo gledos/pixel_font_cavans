@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <style id="id1">
+        canvas {
+            width: 800px;
+            height: 30px;
+        }
+    </style>
+    <style>
+        body {
+            background-color: #212121;
+        }
+
+        p {
+            color: #EEEEEE;
+        }
+
+        canvas {
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -webkit-crisp-edges;
+            image-rendering: pixelated;
+            border: 4px solid rgb(107, 107, 107);
+        }
+    </style>
+    <script src="font_zpix.js"></script>
+</head>
+
+<body>
+    <canvas id="canvas" width="400" height="15"></canvas>
+    <div>
+        <!--
+        <input type="button" onclick="按钮1()" value="按钮1">
+        -->
+        <input id="输入口1" name="wenben" type="text" />
+        <input type="button" onclick="按钮3()" value="生成">
+        <input type="button" onclick="按钮2()" value="随机">
+        <p>1234567890</p>
+        <p>aAbBcCdDeEfFgG</p>
+        <p>你好世界_Hello_World_こんにちは世界</p>
+    </div>
+    <script src="BDF.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
